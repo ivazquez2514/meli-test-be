@@ -1,0 +1,19 @@
+{
+  "name": "meli-test-be",
+  "version": "1.0.0",
+  "description": "Meli test be",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Vazquez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "got": "^12.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
