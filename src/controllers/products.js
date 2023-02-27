@@ -31,6 +31,7 @@ function getProducts(req, res) {
                         },
                         free_shipping: item.shipping?.free_shipping,
                         picture: item.thumbnail,
+                        address: item.address,
                     })),
                     originalObject: meliResponse,
                 })
